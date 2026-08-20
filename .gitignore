@@ -1,0 +1,20 @@
+# Raw and processed data
+data/raw/*.csv
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+.env
+
+# Power BI
+*.pbi/
+
+# OS
+.DS_Store
+Thumbs.db
