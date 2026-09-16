@@ -1,0 +1,14 @@
+         Column Data_Type  Non_Null_Count  Missing_Count  Missing_%  Unique_Count
+          Ad_ID    object            2600              0     0.0000          2600
+  Campaign_Name    object            2600              0     0.0000             4
+         Clicks   float64            2488            112     4.3077           120
+    Impressions   float64            2546             54     2.0769          1702
+           Cost    object            2503             97     3.7308          2106
+          Leads   float64            2552             48     1.8462            21
+    Conversions   float64            2526             74     2.8462             8
+Conversion Rate   float64            1974            626    24.0769           105
+    Sale_Amount    object            2461            139     5.3462           921
+        Ad_Date    object            2600              0     0.0000            90
+       Location    object            2600              0     0.0000             4
+         Device    object            2600              0     0.0000             9
+        Keyword    object            2600              0     0.0000             6
