@@ -1,0 +1,10 @@
+check,raw,cleaned
+Rows,2600,2600
+Columns,13,14
+Duplicate rows,0,0
+Duplicate Ad_ID,0,0
+Campaign unique values,4,1
+Location unique values,4,1
+Device unique values,9,3
+Keyword unique values,6,6
+Missing cells,1150,1150
