@@ -1,0 +1,10 @@
+condition,record_count
+Sale_Amount missing,139
+Conversions missing,74
+Conversions > 0 and Sale_Amount missing,135
+Sale_Amount > 0 and Conversions missing,70
+Conversion Rate missing,626
+Clicks missing,112
+Impressions missing,54
+Leads missing,48
+Cost missing,97
