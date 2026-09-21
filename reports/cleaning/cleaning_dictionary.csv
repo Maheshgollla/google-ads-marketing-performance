@@ -1,0 +1,14 @@
+raw_field,clean_field,transformation,rule
+Ad_ID,ad_id,Rename,Preserve identifier values unchanged.
+Campaign_Name,campaign_name,Rename + standardize,Map approved campaign variants to Data Analytics Course.
+Clicks,clicks,Rename + numeric conversion,Convert to numeric; retain missing values.
+Impressions,impressions,Rename + numeric conversion,Convert to numeric; retain missing values.
+Cost,cost,Rename + currency conversion,Remove currency symbols/commas and convert to numeric; retain missing values.
+Leads,leads,Rename + numeric conversion,Convert to numeric; retain missing values.
+Conversions,conversions,Rename + numeric conversion,Convert to numeric; retain missing values; do not infer from Sale_Amount.
+Conversion Rate,conversion_rate,Rename only,Retain existing values and missing values. Recalculation deferred to Phase 5.
+Sale_Amount,sale_amount,Rename + currency conversion,Remove currency symbols/commas and convert to numeric; retain missing values.
+Ad_Date,ad_date,Rename + explicit date parsing,"Parse known YYYY-MM-DD, YYYY/MM/DD and DD-MM-YYYY representations."
+Location,location,Rename + standardize,Map approved Hyderabad variants to Hyderabad.
+Device,device,Rename + case normalization,"Normalize approved device variants to Mobile, Desktop or Tablet."
+Keyword,keyword_raw / keyword_clean,Preserve + audit field,Do not arbitrarily merge analytical keyword phrases. Preserve raw values.
